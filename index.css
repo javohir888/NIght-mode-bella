@@ -305,4 +305,14 @@ h3 {
     border-radius: 56%;
 }
 
+@media screen and (max-width: 370px)  {
+    .knock {
+        display: none;
+    }
+
+    .insta {
+        width: 100%;
+    }
+}
+
 
