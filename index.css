@@ -19,6 +19,24 @@ h3 {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    position: relative;
+}
+
+.knock {
+    width: 40px;
+    height: 20px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    border-radius: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #111;
+    border-radius: 10px;
 }
 
 .insta {
@@ -217,27 +235,27 @@ h3 {
 }
 
 .image1 {
-    background-image: url(https://yt3.ggpht.com/ytc/AAUvwniIFvgCMMfCOQrNcho-0o0ieUFy-vx18pvLHTFB0Q=s900-c-k-c0x00ffffff-no-rj);
+    background-image: url(./images/menu1.jpg);
 }
 
 .image2 {
-    background-image: url(https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/09/10/4268284393.jpg);
+    background-image: url(./images/menu2.jpg);
 }
 
 .image3 {
-    background-image: url(https://cdn.idntimes.com/content-images/community/2020/09/fromandroid-ff650de4cde1379fcff5f12cd8eba870.jpg);
+    background-image: url(./images/menu3.jpg);
 }
 
 .image4 {
-    background-image: url(https://im0-tub-com.yandex.net/i?id=572bf45532e0a50efe7664fbc635aae3&n=13);
+    background-image: url(./images/menu4.jpg);
 }
 
 .image5 {
-    background-image: url(https://pbs.twimg.com/media/EuBLcukVkAAQPBn.jpg);
+    background-image: url(./images/menu6.jpg);
 }
 
 .image6 {
-    background-image: url(https://medialeaks.ru/wp-content/uploads/2020/09/bella.poarch_28152574_207497916468673_8165672504115855360_n.jpg);
+    background-image: url(./images/menu5.jpg);
 }
 
 .fa-play,
@@ -250,8 +268,10 @@ h3 {
 .footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
     font-size: 17px;
+    color: #333;
 }
 
 .footer img {
