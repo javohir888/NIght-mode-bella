@@ -30,6 +30,7 @@ h3 {
     top: 20px;
     right: 40px;
     border-radius: 10px;
+    transition: all 1s;
 }
 
 .circle {
@@ -37,6 +38,20 @@ h3 {
     height: 20px;
     background-color: #111;
     border-radius: 10px;
+    transition: all 1s;
+}
+
+.go-knock {
+    background-color: #111;
+}
+
+.go-toggle {
+    transform: translateX(20px);
+    background-color: white;
+}
+
+.knock:hover .circle {
+    cursor: pointer;
 }
 
 .insta {
@@ -44,6 +59,12 @@ h3 {
     border-radius: 20px;
     padding-top: 10px;
     box-shadow: 4px 4px 20px 12px rgba(0, 0, 0, .3);
+    transition: all .75s;
+}
+
+.go-insta {
+    background-color: black;
+    color: white;
 }
 
 .header {
@@ -130,7 +151,7 @@ h3 {
     outline: none;
     border-radius: 3px;
     color: honeydew;
-    background-color: rgb(29, 29, 255);
+    background-color: #0195F7;
 }
 
 .btn-middle {
@@ -188,6 +209,10 @@ h3 {
 .img1 p {
     font-size: 10px;
     margin-top: 2px;    
+}
+
+.p3 a {
+    text-decoration: none;
 }
 
 .menu-head {
@@ -279,4 +304,5 @@ h3 {
     height: 20px;
     border-radius: 56%;
 }
+
 
