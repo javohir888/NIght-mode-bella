@@ -10,9 +10,6 @@ circle.addEventListener("click", ()=> {
     insta.classList.toggle("go-insta");
 });
 
-insta.addEventListener("click", ()=> {
-    insta.classList.toggle("go-insta");
-})
 
 
 

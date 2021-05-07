@@ -306,14 +306,9 @@ h3 {
 }
 
 @media only screen and (max-width: 420px)  {
-    .knock {
-        display: none;
-    }
-
     .insta {
         width: 92%;
         margin: 10px auto;
-        height: 80vh;
     }
 }
 
