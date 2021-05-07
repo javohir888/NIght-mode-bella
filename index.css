@@ -1,0 +1,262 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body, 
+p,
+h1,
+h2,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.ctn {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.insta {
+    width: 340px;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 4px 4px 20px 12px rgba(0, 0, 0, .3);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.bella {
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: -.5px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+
+}
+
+.bella-img {
+    width: 66px;
+    height: 66px;
+    border: 1.4px solid rgb(146, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.bella-img img {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    border:  1px solid #999;
+}
+
+.right-main1 {
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-box p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-box span {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 2px;
+    color: #444;
+}
+
+.main2 {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.main3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    margin: 20px 0;
+}
+
+.btn-left {
+    width: 44%;
+    height: 25px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: honeydew;
+    background-color: rgb(29, 29, 255);
+}
+
+.btn-middle {
+    width: 44%;
+    height: 25px;
+    font-size: 12px;
+    border: 1px solid #888;
+    outline: none;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.btn-right {
+    height: 25px;
+    width: 8%;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid #888;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+}
+
+.main4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.img-inside {
+    width: 53px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #888
+}
+
+.img-inside img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 p {
+    font-size: 10px;
+    margin-top: 2px;    
+}
+
+.menu-head {
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-head-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 5px;
+}
+
+.menu-head-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .8px solid #888;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.menu-mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
+    width: 33.1%;
+    height: 100px;
+    margin-top: 1.4px;
+    background-size: cover;
+    text-align: right;
+    padding-right: 4px;
+}
+
+.image1 {
+    background-image: url(https://yt3.ggpht.com/ytc/AAUvwniIFvgCMMfCOQrNcho-0o0ieUFy-vx18pvLHTFB0Q=s900-c-k-c0x00ffffff-no-rj);
+}
+
+.image2 {
+    background-image: url(https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/09/10/4268284393.jpg);
+}
+
+.image3 {
+    background-image: url(https://cdn.idntimes.com/content-images/community/2020/09/fromandroid-ff650de4cde1379fcff5f12cd8eba870.jpg);
+}
+
+.image4 {
+    background-image: url(https://im0-tub-com.yandex.net/i?id=572bf45532e0a50efe7664fbc635aae3&n=13);
+}
+
+.image5 {
+    background-image: url(https://pbs.twimg.com/media/EuBLcukVkAAQPBn.jpg);
+}
+
+.image6 {
+    background-image: url(https://medialeaks.ru/wp-content/uploads/2020/09/bella.poarch_28152574_207497916468673_8165672504115855360_n.jpg);
+}
+
+.fa-play,
+.fa-images {
+    color:  white;
+    opacity: .9;
+    font-size: 11px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+    border-radius: 56%;
+}
+
